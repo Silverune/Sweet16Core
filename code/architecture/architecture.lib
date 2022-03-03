@@ -1,0 +1,13 @@
+#importonce
+
+#import "zero_page.asm"
+#import "zero_page_variables.asm"
+#import "one_page.asm"
+#import "two_page.asm"
+#import "three_page.asm"
+#import "cia.asm"
+#import "vic.asm"
+#import "kernal.asm"
+#import "ascii.asm"
+#import "petscii.asm"
+#import "default.asm"

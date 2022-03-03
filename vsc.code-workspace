@@ -1,0 +1,43 @@
+{
+	"folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": ".//bin",
+            "name": "Output"
+        }
+    ],
+    "settings": {
+        "kickassembler.outputFile": "core.prg",
+        "kickassembler.assemblerArgs": [
+            ":name=\"core\"",
+            ":format=\"d64\"",
+        ],     
+        "files.associations": {
+            "*.asm": "kickassembler"
+        },
+        "kickassembler.outputDirectory": ".//bin",
+        "files.exclude": {
+            "**/.asminfo.txt": true,
+            "**/.source.txt": true,
+            "**/bin": true
+        },
+        "kickassembler.debuggerOptions": "-wait 5000 -autojmp",
+        "kickassembler.assemblerLibraryPaths": [
+            "..//Sweet16Core//code",
+            "resources"
+        ],
+        "kickassembler.byteDumpFile": true,
+        "kickassembler.javaAllowFileCreation": true,
+        "kickassembler.javaPluginSystemProperties": [
+        ],
+        "kickassembler.startup": "startup.asm",   
+    },
+    "extensions": {
+        "recommendations": [
+            "analytic-signal.preview-pdf",
+            "slevesque.vscode-hexdump"
+        ]
+    }
+}
